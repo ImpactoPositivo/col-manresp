@@ -25,7 +25,6 @@
   --fonte4: 'Roboto 900', sans-serif;
 }
 
-
 *{
   padding: 0%;
   margin: 0%;
@@ -540,4 +539,31 @@ body{
 
 .home-section .content .obs .topicos{
   padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 600px){
+  .home-section .elemento > h1 {
+    font-size: 1.9rem;
+  }
+  .home-section .elemento >h3{
+    font-size: 1.5rem;
+  }
+  .home-section .elemento >h4{
+    font-size: 1.3rem;
+  }
+  .home-section .content >h3{
+    font-size: 1.2rem;
+  }
+  .home-section .content >p{
+    font-size: 1.0rem;
+  }
+  .home-section .content .topicos >li{
+    font-size: 1.0rem;
+  }
+  .home-section .content .obs >h4{
+    font-size: 1.2rem;
+  }
+  .home-section .content .obs >p{
+    font-size: 1.0rem;
+  }
 }
