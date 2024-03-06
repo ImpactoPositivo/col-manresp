@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="../_imagens/favicon.ico" type="image/x-icon">
+		<title>Câmara Online - Comunicação</title>
+		<script src="https://kit.fontawesome.com/316dcb45b5.js" crossorigin="anonymous"></script>
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="../_css/estilo.css">
+	</head>
+	<body>
+		<div class="sidebar">
+			<div class="logo_details">
+			  <a href="../_textos/comunicacao.html"><img src="../_imagens/icone-col-branco.png" alt="Logo do Câmara Online"></a>
+			  <div class="logo_name">Câmara<Br>Online</div>
+			  <i class="bx bx-menu" id="btn"></i>
+			</div>   
+			<ul class="nav-list">
+			  <li>
+				<i class="bx bx-search"></i>
+				<input type="text" placeholder="Buscar...">
+				<span class="tooltip">Pesquisa</span>
+			  </li>
+			  <li>
+				<a href="#item1">
+                    <i class='bx bx-target-lock'></i>
+				    <span class="link_name">Objetivo</span>
+                </a>
+                <span class="tooltip">Objetivo</span>
+			  </li>
+				<li>
+					<a href="#item2">
+                        <i class='bx bx-bullseye'></i>
+						<span class="link_name">Cadastrar Mensagem</span>
+					</a>
+					<span class="tooltip">Cadastrar Mensagem</span>
+				</li>				
+				<li>
+					<a href="../_textos/comunicacao.html">
+						<i class='bx bx-home' ></i>
+						<span class="link_name">Menu Comunicação</span>
+					</a>
+					<span class="tooltip">Menu Comunicação</span>
+				</li>
+                <li>
+					<a href="../index.html">
+						<i class='bx bxs-home' ></i>
+						<span class="link_name">Menu Principal</span>
+					</a>
+					<span class="tooltip">Menu Principal</span>
+				</li>				
+			</ul>
+		</div>
+		<section class="home-section">
+            <div class="titulo">
+				<div class="elemento">
+                    <h3>Manual de Operação</h3>
+                    <h4>Mensagens</h4>
+                </div>
+            </div>
+            <article class="content">	
+                <h3 id="item1">Objetivo</h3>
+                    <p>Para automatizar ainda mais o seu trabalho e otimizar o tempo de uso da plataforma pelos seus colaboradores, é possível cadastrar antecipadamente tantos modelos de mensagens quanto necessários à sua organização.</p>
+                    <figure class="tela">
+                        <img src="../_imagens/com_modelo.png">
+                        <figcaption>
+                        <h4>Cadastramento de Modelos de Mensagens</h4>
+                        </figcaption>
+                    </figure>	
+
+                <h3 id="item2">Cadastrando Mensagem</h3>
+                    <p>Para cadastrar um modelo de mensagem, digite no campo “Nome do Modelo” <spam style="color: red;">(1)</spam> um título para identificar sua mensagem, digite a mensagem no campo “Texto SMS” <spam style="color: red;">(2)</spam> e clique no botão “<spam style="background-color: blue;color: white;padding: 1px;">GRAVAR</spam>” para pré cadastrar sua mensagem.</p>
+                    <div class="obs">
+                        <h4>Dicas:</h4>
+                        <ol class="topicos">
+                            <li>O limite de caracteres da mensagem é de 145 caracteres para permitir 15 caracteres da opção de OPTOUT, obrigatória em certos casos, conforme descrito na página <a href="com_optout.html" target="_blank">Lista OPTOUT</a>; ou quando precisamos de alguns caracteres para completar a informação da mensagem, ou deixá-la mais personalizada.</li>
+                            <li>Os acentos gráficos e caracteres especiais não serão considerados pela funcionalidade “Comunicação Ativa” na remessa das mensagens, já que alguns aparelhos celulares e algumas operadoras distorcem esta informação na recepção da mesma. </li>
+                            <li>Se você escrever a expressão <strong>#NOME#</strong> no corpo da mensagem, a funcionalidade “Comunicação Ativa” substituirá a expressão pelo primeiro nome de cada contato que for destinatário dessa remessa.</li>
+                            <li>Sempre insira na mensagem o nome de sua organização, uma vez que o número do celular remetente será um número aleatório e NÃO o seu número de telefone celular.</li>
+                            <li>Tente produzir mensagens sem definição de gênero, evitando expressões do tipo “Caro” ou “Prezado”, já que seus grupos de contatos podem ter indivíduos de ambos os sexos.</li>
+                        </ol>
+                    </div>
+                    <p>Seguindo a padronização da plataforma, na metade inferior dessa tela, o sistema mostra a relação de “Descrição Modelo” <spam style="color: red;">(3)</spam> cadastrados, sendo possível a edição, exclusão <spam style="color: red;">(4)</spam>, rolagem de tela, navegação por páginas <spam style="color: red;">(6)</spam> e configuração da quantidade de “Descrição Modelo” mostradas por página <spam style="color: red;">(5)</spam>.</p>
+                    <p>É possível ainda, clicando no rótulo “Descrição Modelo” <spam style="color: red;">(3)</spam>, acima da coluna que lista as mesmas, ordená-las em ordem alfabética crescente ou decrescente.</p>
+            </article>
+        </section>
+        <!-- Scripts -->
+        <script src="../_js/script.js"></script>
+    </body>
+</html>
