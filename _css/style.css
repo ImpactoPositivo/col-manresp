@@ -327,7 +327,7 @@ body{
   width: calc(100% - 78px);
   transition: all .5s ease;
   z-index: 2;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .home-section .text{
@@ -539,6 +539,141 @@ body{
 
 .home-section .content .obs .topicos{
   padding: 10px 10px 10px 10px;
+}
+
+footer {
+  background-color: #bb94cc;
+  position: relative;
+  bottom: auto;
+  padding: 5px 0;
+  clear: both;
+  margin-top: 10px;  
+}
+
+.container-footer {
+  padding: 0 4%;
+  margin: auto;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-col {
+  width: 22%;
+  padding: 0 15px;
+}
+
+.footer-col img{
+  width: 60%;
+}
+
+.footer-col h4{
+  font-size: 0.75em;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.footer-col p{
+  font-size: .85em;
+  text-align: left;
+  line-height: 15px;
+  color: white;
+  font-weight: 300;
+  position: relative;
+}
+
+.footer-col ul{
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+.footer-col ul li a {
+  font-size: .9em;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #7B1FA2;
+  padding-left: 10px;
+}
+
+.footer-col .medias-sociais {
+  margin-top: 0px;
+}
+
+.footer-col .medias-sociais a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  border: 1px solid white;
+  transition: all0.5s ease;
+}
+
+.footer-col .medias-sociais a i{
+  font-size: 20px;
+}
+
+.footer-col .medias-sociais a:hover {
+  background-color: var(--color-second);
+  color: var(--color-default);
+}
+
+.footer-col .contato li{
+  margin: 0px;
+}
+
+.footer-col .contato li a{
+  font-size: 1.0rem;
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col .contato li a i{
+  font-size: 1.5rem;
+  padding-right: 5px;
+}
+
+.footer-col .contato li a .link_footer:hover{
+  text-decoration: underline;
+  color: var(--cor2);
+  font-weight: bold;  
+}
+
+@media (max-width: 800px){
+  .footer-col{
+      width: 50%;
+      margin-bottom: 20px;
+  }
+}
+  
+@media (max-width: 600px){
+  .footer-col{
+      width: 100%;
+  }
 }
 
 @media (max-width: 700px){
